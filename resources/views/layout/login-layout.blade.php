@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Cumple - @yield('title')</title>
+
+    {{-- css --}}
+
+    <link rel="stylesheet" href="{{ asset('css/style-login.css') }}">
+
+    {{-- Bootstrap --}}
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="conteiner-lg">
+        @yield('content-login')
+        @yield('content-register')
+    </div>
+</body>
+
+</html>
